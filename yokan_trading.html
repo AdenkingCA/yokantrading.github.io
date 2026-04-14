@@ -1,0 +1,1099 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>我的网页</title>
+<meta name="description" content="这是通过 HTMLPAGE 编辑器构建的页面">
+<meta name="keywords" content="HTMLPAGE, Landing">
+<style id="ext-inline-css-import-0">
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+        
+        * {
+            transition: all 0.3s ease;
+        }
+        
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+            background-color: #0a0a0a;
+            color: #f0f0f0;
+            overflow-x: hidden;
+        }
+        
+        /* 自定义工业金属风格类 */
+        .industrial-yellow {
+            color: #FFD700;
+        }
+        
+        .industrial-yellow-bg {
+            background-color: #FFD700;
+        }
+        
+        .industrial-dark {
+            background-color: #1a1a1a;
+        }
+        
+        .industrial-darker {
+            background-color: #0a0a0a;
+        }
+        
+        .industrial-border {
+            border-color: #333333;
+        }
+        
+        .industrial-card {
+            background: linear-gradient(145deg, #1a1a1a, #0f0f0f);
+            border: 1px solid #333333;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        
+        .industrial-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 20px rgba(255, 215, 0, 0.2);
+            border-color: #FFD700;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
+            background-size: 200% 200%;
+        }
+        
+        .pulse-border {
+            position: relative;
+        }
+        
+        .pulse-border::after {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
+            border-radius: inherit;
+            z-index: -1;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .pulse-border:hover::after {
+            opacity: 1;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 0.7; }
+            50% { opacity: 1; }
+            100% { opacity: 0.7; }
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #FFD700;
+            transition: width 0.3s;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .language-toggle {
+            background-color: #1a1a1a;
+            border: 1px solid #333333;
+            color: #FFD700;
+        }
+        
+        .language-toggle:hover {
+            background-color: #FFD700;
+            color: #0a0a0a;
+        }
+        
+        /* 响应式调整 */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+            
+            .section-title {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+<script src="https://image.uc.cn/s/uae/g/3n/mos-production/fontawesome-free-7.1.0-web/js/all.min.js"></script>
+<script src="https://image.uc.cn/s/uae/g/3n/mos-production/0915/3.4.17.js"></script>
+<script id="ext-inline-js-import-head-2">
+!(function(j,a,g){j.__itrace_conf = {bid: 'kt40h0wl-koyh4af8',rel: '', uid: '1916435b-77bb-46a9-af8a-789da578740b' ,  spa: true, plugins:['jserror','interface','perf','resource','flow','blank']};var b = a.createElement("script");var d = a.getElementsByTagName("script")[0];b.type = "text/javascript";b.crossorigin = true;b.async = true;b.onload = function(){j.__itrace && j.__itrace.setReady()};d.parentNode.insertBefore(b,d);b.src = g})(window, document, "https://g.alicdn.com/woodpeckerx/itrace-next/itrace.iife.js")
+</script>
+<style id="htmlpage-inline-styles">* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#i92xnh {
+  font-weight: 700;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+#iy7j7q {
+  color: rgb(246, 228, 102);
+  border-color: rgba(246, 229, 101, 0.5);
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+#iyoje7 {
+  color: rgb(246, 228, 102);
+  border-color: rgba(246, 229, 101, 0.5);
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+#i5lovw {
+  color: rgb(246, 228, 102);
+  border-color: rgba(246, 229, 101, 0.5);
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+#i5oq0b {
+  color: rgb(246, 228, 102);
+  border-color: rgba(246, 229, 101, 0.5);
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+#islfkk {
+  color: rgb(246, 228, 102);
+  border-color: rgba(246, 229, 101, 0.5);
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+#ilfjdy {
+  color: rgb(246, 228, 102);
+  border-color: rgba(246, 229, 101, 0.5);
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+#igu0fm {
+  color: rgb(246, 228, 102);
+  border-color: rgba(246, 229, 101, 0.5);
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+#ij3ti3 {
+  width: 54px;
+  height: 54px;
+}
+
+.c594 {
+  width: 51px;
+  height: 58px;
+}
+
+.c841 {
+  width: 130px;
+  height: 130px;
+}
+
+.c22966 {
+  font-size: 3.25rem;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+  line-height: 1.3;
+  font-weight: 300;
+  font-family: "Raleway Flex", Raleway-Fallback, "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.c27478 {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Raleway Flex", Raleway-Fallback, "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+  font-size: 17.2px;
+}
+
+.c271042 {
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  outline: none;
+  opacity: 1;
+  transition: none !important;
+  cursor: text !important;
+}
+
+.c279099 {
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  outline: none;
+  transition: none !important;
+  cursor: text !important;
+}
+
+.c285911 {
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  outline: none;
+  transition: none !important;
+  cursor: text !important;
+}
+
+.c293993 {
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  outline: none;
+  transition: none !important;
+  cursor: text !important;
+}
+
+.c302113 {
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  outline: none;
+  transition: none !important;
+  cursor: text !important;
+}
+
+.c309024 {
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  outline: none;
+  cursor: text !important;
+}
+
+.c317167 {
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  outline: none;
+  transition: none !important;
+  cursor: text !important;
+}
+
+.c325351 {
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  outline: none;
+  transition: none !important;
+  cursor: text !important;
+}
+
+.c329500 {
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  transition: none !important;
+  cursor: url("data:image/svg+xml;}.c329509{--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-scroll-snap-strictness:proximity;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;transition:none !important;cursor:url(" data:image/svg+xml;
+  }
+
+  .c408225 {
+    --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-scroll-snap-strictness:proximity; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgb(59 130 246 / 0.5); --tw-ring-offset-shadow:0 0 #0000; --tw-ring-shadow:0 0 #0000; --tw-shadow:0 0 #0000; --tw-shadow-colored:0 0 #0000; outline:none; transition:none !important; cursor:text !important;
+  }
+
+  .c412419 {
+    --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-scroll-snap-strictness:proximity; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgb(59 130 246 / 0.5); --tw-ring-offset-shadow:0 0 #0000; --tw-ring-shadow:0 0 #0000; --tw-shadow:0 0 #0000; --tw-shadow-colored:0 0 #0000; outline:none; transition:none !important; cursor:text !important;
+  }
+
+  .c416619 {
+    --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-scroll-snap-strictness:proximity; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgb(59 130 246 / 0.5); --tw-ring-offset-shadow:0 0 #0000; --tw-ring-shadow:0 0 #0000; --tw-shadow:0 0 #0000; --tw-shadow-colored:0 0 #0000; outline:none; opacity:1; transition:none !important; cursor:text !important;
+  }
+
+  .c488231 {
+    color:rgb(240, 240, 240);
+  }
+
+  .c488267 {
+    color:rgb(240, 240, 240);
+  }
+
+  .c488303 {
+    color:rgb(240, 240, 240);
+  }
+
+  .c488321 {
+    color:rgb(240, 240, 240);
+  }
+
+  .c488357 {
+    color:rgb(240, 240, 240);
+  }
+
+  .c488393 {
+    color:rgb(240, 240, 240);
+  }
+
+  .c488429 {
+    color:rgb(240, 240, 240);
+  }
+
+  .c488447 {
+    color:rgb(240, 240, 240);
+  }
+
+  .c488456 {
+    color:rgb(240, 240, 240);
+  }
+
+  .c488465 {
+    color:rgb(240, 240, 240);
+  }
+
+  .c519307 {
+    --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-scroll-snap-strictness:proximity; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgb(59 130 246 / 0.5); --tw-ring-offset-shadow:0 0 #0000; --tw-ring-shadow:0 0 #0000; --tw-shadow:0 0 #0000; --tw-shadow-colored:0 0 #0000; outline:none; cursor:text !important;
+  }
+
+  .c527373 {
+    color:rgb(240, 240, 240);
+  }
+
+  .c535601 {
+    --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-scroll-snap-strictness:proximity; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgb(59 130 246 / 0.5); --tw-ring-offset-shadow:0 0 #0000; --tw-ring-shadow:0 0 #0000; --tw-shadow:0 0 #0000; --tw-shadow-colored:0 0 #0000; outline:none; opacity:1; transition:none !important; cursor:text !important;
+  }
+
+  .c540584 {
+    --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-scroll-snap-strictness:proximity; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgb(59 130 246 / 0.5); --tw-ring-offset-shadow:0 0 #0000; --tw-ring-shadow:0 0 #0000; --tw-shadow:0 0 #0000; --tw-shadow-colored:0 0 #0000; outline:none; transition:none !important; cursor:text !important;
+  }
+
+  .c545491 {
+    --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-scroll-snap-strictness:proximity; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgb(59 130 246 / 0.5); --tw-ring-offset-shadow:0 0 #0000; --tw-ring-shadow:0 0 #0000; --tw-shadow:0 0 #0000; --tw-shadow-colored:0 0 #0000; outline:none; cursor:text !important;
+  }
+
+  .c566638 {
+    --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-scroll-snap-strictness:proximity; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgb(59 130 246 / 0.5); --tw-ring-offset-shadow:0 0 #0000; --tw-ring-shadow:0 0 #0000; --tw-shadow:0 0 #0000; --tw-shadow-colored:0 0 #0000; outline:none; transition:none !important; cursor:text !important;
+  }
+
+  .c571580 {
+    --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-scroll-snap-strictness:proximity; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgb(59 130 246 / 0.5); --tw-ring-offset-shadow:0 0 #0000; --tw-ring-shadow:0 0 #0000; --tw-shadow:0 0 #0000; --tw-shadow-colored:0 0 #0000; outline:none; transition:none !important; cursor:text !important;
+  }
+
+  .c657055 {
+    --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-scroll-snap-strictness:proximity; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgb(59 130 246 / 0.5); --tw-ring-offset-shadow:0 0 #0000; --tw-ring-shadow:0 0 #0000; --tw-shadow:0 0 #0000; --tw-shadow-colored:0 0 #0000; outline:none; transition:none !important; cursor:text !important;
+  }
+
+  .c666932 {
+    --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-scroll-snap-strictness:proximity; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgb(59 130 246 / 0.5); --tw-ring-offset-shadow:0 0 #0000; --tw-ring-shadow:0 0 #0000; --tw-shadow:0 0 #0000; --tw-shadow-colored:0 0 #0000; outline:none; cursor:text !important;
+  }
+
+  .c672027 {
+    --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-scroll-snap-strictness:proximity; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgb(59 130 246 / 0.5); --tw-ring-offset-shadow:0 0 #0000; --tw-ring-shadow:0 0 #0000; --tw-shadow:0 0 #0000; --tw-shadow-colored:0 0 #0000; outline:none; opacity:1; cursor:text !important;
+  }
+
+  .c714646 {
+    --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-scroll-snap-strictness:proximity; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgb(59 130 246 / 0.5); --tw-ring-offset-shadow:0 0 #0000; --tw-ring-shadow:0 0 #0000; --tw-shadow:0 0 #0000; --tw-shadow-colored:0 0 #0000; outline:none; font-family:PMZDBiaoTi; opacity:1; transition:none !important; cursor:text !important;
+  }
+
+  .c853061 {
+    font-family:PMZDBiaoTi; font-size:18px;
+  }
+</style>
+</head>
+<body>
+<nav class="industrial-dark fixed w-full z-50 py-4 border-b industrial-border">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      <div class="flex items-center mb-4 md:mb-0"><img data-v-d2f047b4="" src="https://cms-api.htmlpage.cn/uploads/thumbnail_15265_1776187441802_ixm5os8bf4n_1168f96908.png" alt="mine" style="width:51px;height:58px;" class="thumb-img-el is-loaded c594">
+        <div>
+          <h1 class="text-xl font-bold industrial-yellow">
+            </h1><h1 class="text-xl font-bold industrial-yellow mb-setting-selected c714646">YOKAN TRADING</h1>
+          
+          <p class="text-sm text-gray-300"><span class="c853061">亚灿安途贸易有限公司</span></p>
+        </div>
+      </div>
+      <div class="flex flex-wrap justify-center space-x-2 md:space-x-6 mb-4 md:mb-0"><a href="#home" class="nav-link px-3 py-2 text-gray-300 hover:text-white">HOME</a><a href="#about" class="nav-link px-3 py-2 text-gray-300 hover:text-white">ABOUT US</a><a href="#products" class="nav-link px-3 py-2 text-gray-300 hover:text-white">PRODUCTS CENTER</a><a href="#contact" class="nav-link px-3 py-2 text-gray-300 hover:text-white">CONTACT US</a></div>
+      <div></div>
+    </div>
+  </nav>
+  <main class="pt-24">
+    <section id="home" class="hero-gradient py-16 md:py-24 border-b industrial-border">
+      <div class="container mx-auto px-4 text-center">
+        <div class="flex justify-center mb-8"><img data-v-d2f047b4="" src="https://cms-api.htmlpage.cn/uploads/thumbnail_15265_1776187588031_cw7pw301axd_495bc1c939.jpg" alt="mine" style="width:130px;height:130px;" class="thumb-img-el is-loaded c841"></div>
+        <h1 class="hero-title text-4xl md:text-5xl font-bold mb-4 industrial-yellow">
+          </h1><h1 class="wnd-align-center c22966"><span style="font-weight:700;-webkit-tap-highlight-color:transparent !important;">
+              <font class="wsw-13" style="color:rgb(246, 228, 102);border-color:rgba(246, 229, 101, 0.5);-webkit-tap-highlight-color:transparent !important;">
+                Y</font>ou&nbsp;<font class="wsw-13" style="color:rgb(246, 228, 102);border-color:rgba(246, 229, 101, 0.5);-webkit-tap-highlight-color:transparent !important;">
+                C</font>an&nbsp;<font class="wsw-13" style="color:rgb(246, 228, 102);border-color:rgba(246, 229, 101, 0.5);-webkit-tap-highlight-color:transparent !important;">
+                T</font>rade •&nbsp;<font class="wsw-13" style="color:rgb(246, 228, 102);border-color:rgba(246, 229, 101, 0.5);-webkit-tap-highlight-color:transparent !important;">
+                W</font>e&nbsp;<font class="wsw-13" style="color:rgb(246, 228, 102);border-color:rgba(246, 229, 101, 0.5);-webkit-tap-highlight-color:transparent !important;">
+                C</font>an&nbsp;<font class="wsw-13" style="color:rgb(246, 228, 102);border-color:rgba(246, 229, 101, 0.5);-webkit-tap-highlight-color:transparent !important;">
+                M</font>ake&nbsp;<font class="wsw-13" style="color:rgb(246, 228, 102);border-color:rgba(246, 229, 101, 0.5);-webkit-tap-highlight-color:transparent !important;">
+                I</font>t
+            </span></h1>
+        
+        <p class="text-lg md:text-xl max-w-3xl mx-auto text-gray-300 mb-10"><span class="c27478">Yokan Trading Co., Ltd.
+            is a professional international trading company dedicated to connecting global markets with reliable
+            products and efficient services. We specialize in import and export business, cross-border supply chain
+            solutions, product sourcing, and customized trade services for clients worldwide.&nbsp;</span></p>
+        <div class="flex justify-center"></div>
+      </div>
+    </section>
+    <section id="about" class="py-16 industrial-dark border-b industrial-border">
+      <div class="container mx-auto px-4">
+        <h2 class="section-title text-3xl font-bold mb-10 text-center industrial-yellow">ABOUT US</h2>
+        <div class="max-w-4xl mx-auto">
+          <div class="industrial-card p-8 rounded-lg">
+            <p id="aboutText" class="text-lg md:text-xl leading-relaxed text-gray-300">
+              YOKAN Trading is committed to connecting global supply chains, providing high-quality industrial raw
+              materials, transportation equipment, and daily necessities with rigorous attitude and professional
+              service, building a timeless trade bridge.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+            <div class="industrial-card p-6 rounded-lg text-center">
+              <div class="w-16 h-16 rounded-full industrial-yellow-bg flex items-center justify-center mx-auto mb-4"><i class="fas fa-globe-americas text-2xl text-black"></i></div>
+              <h3 class="text-xl font-bold mb-3 industrial-yellow">全球网络</h3>
+              <p class="text-gray-300">覆盖全球主要市场的供应链网络，确保资源的稳定供应与高效配送。</p>
+            </div>
+            <div class="industrial-card p-6 rounded-lg text-center">
+              <div class="w-16 h-16 rounded-full industrial-yellow-bg flex items-center justify-center mx-auto mb-4"><i class="fas fa-industry text-2xl text-black"></i></div>
+              <h3 class="text-xl font-bold mb-3 industrial-yellow">工业品质</h3>
+              <p class="text-gray-300">严格的质量控制体系，确保每一件产品都符合工业级标准与客户需求。</p>
+            </div>
+            <div class="industrial-card p-6 rounded-lg text-center">
+              <div class="w-16 h-16 rounded-full industrial-yellow-bg flex items-center justify-center mx-auto mb-4"><i class="fas fa-handshake text-2xl text-black"></i></div>
+              <h3 class="text-xl font-bold mb-3 industrial-yellow">专业服务</h3>
+              <p class="text-gray-300">经验丰富的专业团队，提供从咨询到交付的全流程定制化贸易解决方案。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="products" class="py-16 industrial-darker">
+      <div class="container mx-auto px-4">
+        <h2 class="section-title text-3xl font-bold mb-10 text-center industrial-yellow">PRODUCTS CENTER</h2>
+        <div class="mb-16">
+          <h3 class="text-2xl font-bold mb-8 industrial-yellow border-l-4 border-yellow-500 pl-4">MATERIALS &amp;
+            INDUSTRY</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="印度真人头发产品展示 - 高质量真人头发原材料，用于假发制造和发制品行业" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/9fca74e5aeb596b3027fe03b9c99bd22" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow c519307">RAW HUMAN HAIR</h4>
+                
+                <p data-en="High-quality real human hair from India, suitable for wig manufacturing and hair products industry. Known for its durability, texture and natural appearance." class="text-gray-300 mb-3">Raw human hair sourced from India.<br><span class="c527373">Lengths: 8",
+                    10", 12", 14", 16", 18", 20".（20.32cm, 25.4cm, 30.48cm, 35.56cm, 40.64cm, 45.72cm, 50.8cm）</span>
+                </p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="乳木果油产品展示 - 天然植物油脂，用于化妆品、护肤品和药品制造" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/4213272944241909a29c3b013d773fce" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow mb-setting-selected c535601">SHEA BUTTER</h4>
+                
+                <p data-en="Natural plant oil extracted from shea nuts, widely used in cosmetics, skincare products and pharmaceutical manufacturing for its moisturizing and healing properties." class="text-gray-300 mb-3">Natural plant oil extracted from shea nuts, widely used in the production
+                  of cosmetics, skin care products and pharmaceuticals, with moisturizing and repairing properties.</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="橡胶原材料展示 - 天然橡胶和合成橡胶，用于轮胎、密封件和工业制品制造" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/dde3dde374a263aefbfe319d39db2139" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow c545491">RUBBER</h4>
+                
+                <p data-en="Natural and synthetic rubber materials for tire manufacturing, seals, and industrial products. Available in various grades for different industrial applications." class="text-gray-300 mb-3">The source of goods is Thailand. Natural and synthetic rubber materials
+                  used in tire manufacturing, seals and industrial products. Various grades are provided to meet the
+                  needs of different industrial applications.</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="大理石原材料展示 - 高品质天然大理石石材，用于建筑装饰、雕塑和室内设计" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/75195e87b9ef4bab7f4f5aa6b5b31255" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow mb-setting-selected c571580">GRANITE &amp; MARBLE
+                  </h4>
+                
+                <p data-en="High-quality natural marble stone for architectural decoration, sculpture and interior design. Available in various colors and patterns including white, black and beige." class="text-gray-300 mb-3">Originating from Pakistan, this is a high-quality natural marble stone used
+                  for architectural decoration, sculpture and interior design. It is available in a variety of colors
+                  and patterns, including white, black and beige.</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="鹰嘴豆农产品展示 - 高品质鹰嘴豆，用于食品加工、健康食品和餐饮行业" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/b986055e4ca7cf18135b1800b154c75d" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow mb-setting-selected c566638">CHICKPEAS&nbsp;</h4>
+                
+                <p data-en="High-quality chickpeas for food processing, health foods and catering industry. Rich in protein, fiber and essential nutrients." class="text-gray-300 mb-3">High-quality chickpeas for use in the food processing, health food and
+                  catering industries. Rich in protein, fiber and essential nutrients.</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="棕榈油产品展示 - 食品级和工业级棕榈油，用于食品制造、生物燃料和化工产品" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/f34b307cd8a025dc73629d023189a8f3" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow mb-setting-selected c540584">EDIBLE OIL&nbsp;</h4>
+                
+                <p data-en="Food-grade and industrial-grade palm oil for food manufacturing, biofuels and chemical products. One of the most widely used vegetable oils globally." class="text-gray-300 mb-3">Food-grade and industrial-grade palm oil used in food manufacturing,
+                  biofuels and chemical products. It is one of the most widely used vegetable oils worldwide.</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="变压器工业设备展示 - 电力变压器设备，用于电力传输、分配和电压转换" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/6f5bda10007ae7c88a287f99f7e0be8c" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow c672027">POWER TRANSFORMER&nbsp;</h4>
+                
+                <p data-en="Power transformer equipment for electricity transmission, distribution and voltage conversion. Available in various capacities for industrial and commercial applications." class="text-gray-300 mb-3">&gt;&nbsp;Oilimmersed transformer<br>&gt;&nbsp;Dry-type
+                  transformer<br>&gt;&nbsp;Silicon steel core<br>&gt;&nbsp;European-style substation<br>&gt;&nbsp;High and low
+                  voltage switches<br>&gt;&nbsp;JP cabinet</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="天然气能源产品展示 - 清洁能源天然气，用于发电、供暖和工业燃料" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/bfd7732a27cc754b537d5465125a5b72" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow mb-setting-selected c657055">LIQUEFIED PETROLEUM
+                    GAS</h4>
+                
+                <p data-en="Clean energy natural gas for power generation, heating and industrial fuel. Supplied through pipelines or as liquefied natural gas (LNG) for various applications." class="text-gray-300 mb-3">The gas source comes from Kazakhstan. It is clean energy natural gas used
+                  for power generation, heating and industrial fuel. It is supplied via pipelines or in the form of
+                  liquefied natural gas (LNG) and is suitable for various applications.</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="聚丙烯K8009化工产品展示 - 高性能聚丙烯塑料颗粒，用于注塑成型和塑料制品制造" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/bf8f47bd0a92f41214c501d9e8650e9d" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow c666932">POLYPROPYLENE PELLETS K8009</h4>
+                
+                <p data-en="High-performance polypropylene plastic pellets for injection molding and plastic products manufacturing. Grade K8009 offers excellent mechanical properties and processability." class="text-gray-300 mb-3">&gt; Taiwan Chemical Fiber<br>&gt; Sinopec Hainan Branch<br>&gt;Sinopec
+                  Guangzhou Branch<br>&gt;Sinopec Maoming Branch</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mb-16">
+          <h3 class="text-2xl font-bold mb-8 industrial-yellow border-l-4 border-yellow-500 pl-4">TRANSPORTATION</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="重卡超载轮胎产品展示 - 重型卡车用超载轮胎，具有高承载能力和耐用性" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/c876023858bafca4184140d98380a51a" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow mb-setting-selected c416619">Overloaded tires for
+                    heavy-duty trucks</h4>
+                
+                <p data-en="Heavy-duty truck overload tires with high load capacity and durability. Designed for challenging road conditions and extended service life." class="text-gray-300 mb-3">The supply source is Shandong, China. Heavy-duty truck overload tires with
+                  high load-bearing capacity and durability. Designed specifically for harsh road conditions and
+                  extended service life.</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="第四代润滑油产品展示 - 高性能合成润滑油，用于发动机保护和燃油效率提升" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/af18c9a4395cc96d0d7c1e3469d48e33" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow mb-setting-selected c412419">LUBRICATING OILS&nbsp;
+                  </h4>
+                
+                <p data-en="Fourth-generation high-performance synthetic lubricants for engine protection and fuel efficiency improvement. Advanced formula reduces friction and extends engine life." class="text-gray-300 mb-3">Patented technology developed in China; manufactured in China
+                  for<br>global export. Friction coefficient reduced to 0.02, Fuel saving:
+                  8%-<br>33%.<br>&gt;&nbsp;Full Synthetic Super Oil: Sedans, SUVs, performance, hybrid &amp;
+                  EV<br>&gt;&nbsp;Diesel Engine Oil: Trucks, machinery, ships; long drain<br>&gt;&nbsp;Motorcycle Oil: Full
+                  &amp; semi synthetic<br>&gt;&nbsp;<span class="c488231">Transmission &amp; Gear Oil：Manual / automatic
+                    transmissions<br></span>&gt;&nbsp;<span class="c488267">Hydraulic Oil, Brake Fluid, Antifreeze：Vehicle
+                    system care</span><br>&gt;&nbsp;<span class="c488303">I</span><span class="c488321">ndustrial Gear
+                    Oil：Heavy-duty gearboxes<br></span>&gt;&nbsp;<span class="c488357">Hydraulic Oil：Machinery, tools,
+                    molding machines<br></span>&gt;&nbsp;<span class="c488393">Engine Restorer：Nano coating,
+                    anti-wear<br></span>&gt;&nbsp;<span class="c488429">Grease：High temp, waterproof for
+                    bearings</span><span class="c488447"></span><span class="c488456"></span><span class="c488465"></span></p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="电动三轮车产品展示 - 商用电动三轮车，用于物流配送和城市短途运输" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/0c9a6ac9ac8d00f77e846bdffc3c0b03" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow mb-setting-selected c408225">ELECTRIC TRICYCLES&nbsp;
+                  </h4>
+                
+                <p data-en="Commercial electric tricycles for logistics distribution and urban short-distance transportation. Eco-friendly solution with zero emissions and low operating costs." class="text-gray-300 mb-3">From Hebei, China. Commercial electric tricycles used for
+                  logisticsdistribution and urban short-distance transportation. Anenvironmentally friendly solution
+                  with zero emissions and low<br>operating costs.<br>&gt; Sanitation and cleaning electric
+                  vehicles<br>&gt; Waste transfer electric vehicles<br>&gt; Freight electric tricycles<br>&gt;
+                  Leisure electric tricycles<br>&gt; Electric sightseeing vehicles<br>&gt; Fire emergency electric
+                  vehicles</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="汽车配件产品展示 - OEM和售后市场汽车零部件，包括刹车系统、悬挂和电子组件" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/c38b5a40ddab9cd7665bb4fa79618dbb" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">AUTO PARTS</h4>
+                <p data-en="OEM and aftermarket automotive parts including braking systems, suspension components and electronic assemblies. Compatible with various vehicle models." class="text-gray-300 mb-3">OEM and aftermarket automotive parts including brake systems, suspension
+                  components and electronic components. Compatible with a wide range of vehicle models.</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="电动汽车产品展示 - 新能源电动汽车，用于环保出行和商业车队" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/f653b714b8b6c6b2dc2d39527db1f90a" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">ELECTRIC VEHIVLE</h4>
+                <p data-en="New energy electric vehicles for eco-friendly transportation and commercial fleets. Featuring advanced battery technology and smart connectivity." class="text-gray-300 mb-3">New energy electric vehicles for eco-friendly travel and commercial fleets.
+                  Equipped with advanced battery technology and intelligent connectivity features.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mb-16">
+          <h3 class="text-2xl font-bold mb-8 industrial-yellow border-l-4 border-yellow-500 pl-4">DAILY NECESSITIES</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="帽子CAPS &amp; HEADWEAR产品展示 - 时尚帽子与头饰，包括棒球帽、渔夫帽和时尚头饰" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/bd4759502220330ce1a150f34974ecbd" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow mb-setting-selected c325351">CAPS &amp; HEADWEAR
+                  </h4>
+                
+                <p data-en="Fashionable caps and headwear including baseball caps, bucket hats and stylish head accessories. Available in various materials and designs for different occasions." class="text-gray-300 mb-3">An experienced professional team provides end-to-end customized trade
+                  solutions ranging from consultation to delivery.<br class="c329500"><br class="c329509">Baseball
+                  Caps, Sun Visor Caps, Army Caps, Trucker Caps, Flat Visor Caps, Bucket Caps</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="洗衣用品产品展示 - 洗衣液、柔顺剂和去污剂等家庭洗衣护理产品" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/31958cea44fa4b26a25c91254dc266fe" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow mb-setting-selected c317167">CLOTHING WASHING&nbsp;
+                  </h4>
+                
+                <p data-en="Laundry care products including laundry detergent, fabric softener and stain removers. Effective cleaning solutions for household and commercial use." class="text-gray-300 mb-3">Including laundry soap, transparent soap, brightening soap, laundry powder,
+                  soap powder, laundry detergent, special laundry detergent for underwear, baby laundry detergent,
+                  fabric softener and clothing disinfectant products. Efficient cleaning solutions suitable for both
+                  household and commercial use.</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="厨房水果用品展示 - 厨房用具和水果处理工具，包括刀具、削皮器和保鲜容器" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/10172b3ff8a705bb88e1206f9bebe1f4" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow c309024">DISH &amp; FRUIT/ VEGETABLE CLEANING&nbsp;
+                  </h4>
+                
+                <p data-en="Kitchen utensils and fruit processing tools including knives, peelers and food storage containers. Designed for efficient food preparation and preservation." class="text-gray-300 mb-3">Kitchen utensils and fruit processing tools including dish soap (household
+                  and large commercial catering packages), fruit and vegetable cleaners, knives, peelers, and
+                  fresh-keeping containers. Specially designed for efficient food preparation and preservation.</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="厕所清洗用品展示 - 卫生间清洁剂、消毒液和除臭产品，用于卫生维护" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/3b8e332e9887438d786f1fa80bf60871" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow mb-setting-selected c302113">HOUSEHOLD ENVIRONMENT
+                    CLEANING</h4>
+                
+                <p data-en="Bathroom cleaning products including toilet cleaners, disinfectants and deodorizers for hygiene maintenance. Effective against germs and stains." class="text-gray-300 mb-3">Toilet cleaners, disinfectants and deodorants for hygiene maintenance.
+                  Effectively fight against bacteria and stains.</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="个人护理用品展示 - 洗发水、沐浴露、护肤品和口腔护理等个人卫生产品" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/9abb0cb2291a0e82d13e2477639dd5c1" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow mb-setting-selected c293993">PERSONAL CLEANING
+                    &amp; CARE&nbsp;</h4>
+                
+                <p data-en="Personal hygiene products including shampoo, body wash, skincare and oral care items. Formulated for daily use with quality ingredients." class="text-gray-300 mb-3">Personal hygiene products including shampoo, body wash, skin care products
+                  and oral care items. Formulated with high-quality ingredients, suitable for daily use.</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="酒店用品定制展示 - 定制化酒店客房用品，包括洗漱套装、拖鞋和浴袍" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/8d5014698b8fef80ffea972b14b67dcc" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow mb-setting-selected c285911">HOTEL &amp;
+                    COMMERCIAL SPECIAL</h4>
+                
+                <p data-en="Customized hotel room amenities including toiletries, slippers and bathrobes. Personalized solutions with hotel branding for enhanced guest experience." class="text-gray-300 mb-3">Customized hotel guest room supplies including mini hotel soaps, disposable
+                  shampoo and body wash, large commercial buckets of dish soap for catering, as well as large commercial
+                  packages of disinfectants and cleaners. Personalized solutions featuring hotel branding are provided
+                  to enhance guest experience.</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="其他日常护理产品展示 - 包括纸巾、湿巾、棉签和家庭急救用品等日常护理产品" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/a6255136162e9ee6e1d73466abcdd15a" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow mb-setting-selected c279099">OTHER DAILY CHEMICAL
+                    SUPPORTING</h4>
+                
+                <p data-en="Other daily care products including tissues, wipes, cotton swabs and home first aid supplies. Essential items for household and personal care needs." class="text-gray-300 mb-3">Including daily care products such as paper towels, wet wipes, cotton swabs
+                  and household first-aid supplies. These are basic items that meet the needs of family and personal
+                  care.</p>
+              </div>
+            </div>
+            <div class="industrial-card rounded-lg overflow-hidden flex flex-col h-full">
+              <div class="w-full h-48 overflow-hidden"><img alt="烈酒饮品展示 - 高品质烈酒和酒类饮品，包括威士忌、伏特加和特色蒸馏酒" src="https://agent.qianwen.com/mos/b7800b719f154d34be1d9e344ca45181/8492a706a9bf43c2690682827c04fb06" class="w-full h-full object-cover"></div>
+              <div class="p-5 flex-grow">
+                <h4 class="text-xl font-bold mb-2 industrial-yellow">
+                  </h4><h4 class="text-xl font-bold mb-2 industrial-yellow mb-setting-selected c271042">ALCOHOLIC DRINKS</h4>
+                
+                <p data-en="High-quality spirits and alcoholic beverages including whiskey, vodka and specialty distilled liquors. Sourced from reputable producers worldwide." class="text-gray-300 mb-3">High-quality spirits and alcoholic beverages including whisky, vodka and
+                  specialty distilled liquors. Sourced from world-renowned wine and liquor manufacturers, with brand
+                  customization available.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-16 industrial-dark border-t industrial-border">
+      <div class="container mx-auto px-4">
+        <h2 class="section-title text-3xl font-bold mb-10 text-center industrial-yellow">CONTACT US</h2>
+        <div class="max-w-4xl mx-auto">
+          <div class="industrial-card p-8 rounded-lg">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div class="text-center">
+                <div class="w-16 h-16 rounded-full industrial-yellow-bg flex items-center justify-center mx-auto mb-4">
+                  <i class="fas fa-map-marker-alt text-2xl text-black"></i></div>
+                <h3 class="text-xl font-bold mb-3 industrial-yellow">LOCATION</h3>
+                <p data-en="Tianshan Chuanggu Building, No.88 West Taxi Street, Gaocheng District, Shijiazhuang, Hebei Province, P.R.China" class="text-gray-300 text-sm mt-2">
+                  Tianshan Chuanggu Building, No.88 West Taxi Street, Gaocheng District, Shijiazhuang, Hebei Province,
+                  P.R.China
+                </p>
+              </div>
+              <div class="text-center">
+                <div class="w-16 h-16 rounded-full industrial-yellow-bg flex items-center justify-center mx-auto mb-4">
+                  <i class="fas fa-phone-alt text-2xl text-black"></i></div>
+                <h3 class="text-xl font-bold mb-3 industrial-yellow">PHONE</h3>
+                <p id="phoneText" class="text-gray-300">+86 18633833889</p>
+              </div>
+              <div class="text-center">
+                <div class="w-16 h-16 rounded-full industrial-yellow-bg flex items-center justify-center mx-auto mb-4">
+                  <i class="fas fa-envelope text-2xl text-black"></i></div>
+                <h3 class="text-xl font-bold mb-3 industrial-yellow">E-MAIL</h3>
+                <p id="emailText" class="text-gray-300">yokantrading@outlook.com</p>
+              </div>
+            </div>
+            <div class="mt-10 pt-8 border-t industrial-border text-center">
+              <h4 class="text-xl font-bold mb-4 industrial-yellow">YOU CAN TRADE - WE CAN MAKE IT</h4>
+              <p data-en="YOKAN Trading is committed to being your reliable global trade partner, providing professional and efficient supply chain solutions." class="text-gray-300 mt-2">
+                YOKAN Trading is committed to being your reliable global trade partner, providing professional and
+                efficient supply chain solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="industrial-darker py-8 border-t industrial-border">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-4 md:mb-0">
+          <div class="flex items-center"><img data-v-d2f047b4="" src="https://cms-api.htmlpage.cn/uploads/thumbnail_15265_1776187588031_cw7pw301axd_495bc1c939.jpg" alt="mine" class="thumb-img-el is-loaded" style="width:54px;height:54px;">
+            <div>
+              <h3 class="text-lg font-bold industrial-yellow">YOKAN Trading</h3>
+              <p class="text-sm text-gray-400">亚灿安途 © 2026</p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center md:text-right"></div>
+      </div>
+    </div>
+  </footer>
+<script id="ext-inline-js-import-body-end-3">
+        // 语言切换功能
+        let currentLanguage = 'zh'; // 默认中文
+        
+        const languageToggle = document.getElementById('languageToggle');
+        const aboutText = document.getElementById('aboutText');
+        const addressText = document.getElementById('addressText');
+        const phoneText = document.getElementById('phoneText');
+        const emailText = document.getElementById('emailText');
+        const contactSlogan = document.getElementById('contactSlogan');
+        
+        // 所有需要切换语言的元素
+        const languageElements = document.querySelectorAll('[data-en]');
+        
+        // 语言内容映射
+        const languageContent = {
+            zh: {
+                toggleText: 'EN',
+                heroSubtitle: '亚灿安途',
+                heroDescription: '连接全球供应链，提供高品质工业原材料、交通设备和日用品，以严谨态度和专业服务，构建跨越时代的贸易桥梁。',
+                aboutTitle: '公司介绍',
+                aboutText: 'YOKAN Trading致力于连接全球供应链，提供高品质工业原材料、交通设备和日用品，以严谨态度和专业服务，构建跨越时代的贸易桥梁。',
+                productTitle: '产品中心',
+                contactTitle: '联系我们',
+                addressText: '河北省石家庄市藁城区西出租车街88号天山创谷大厦',
+                phoneText: '+86 18633833889',
+                emailText: 'yokantrading@outlook.com',
+                contactSlogan: 'YOKAN Trading致力于成为您可靠的全球贸易伙伴，提供专业、高效的供应链解决方案。',
+                navHome: '首页',
+                navAbout: '公司介绍',
+                navProducts: '产品中心',
+                navContact: '联系我们',
+                exploreProducts: '探索产品',
+                globalNetwork: '全球网络',
+                industrialQuality: '工业品质',
+                professionalService: '专业服务',
+                rawMaterials: '原料与工业品',
+                transportation: '交通类产品',
+                dailyGoods: '日常日化用品'
+            },
+            en: {
+                toggleText: '中文',
+                heroSubtitle: 'YOKAN Trading',
+                heroDescription: 'Connecting global supply chains, providing high-quality industrial raw materials, transportation equipment, and daily necessities with rigorous attitude and professional service, building a timeless trade bridge.',
+                aboutTitle: 'About Us',
+                aboutText: 'YOKAN Trading is committed to connecting global supply chains, providing high-quality industrial raw materials, transportation equipment, and daily necessities with rigorous attitude and professional service, building a timeless trade bridge.',
+                productTitle: 'Product Center',
+                contactTitle: 'Contact Us',
+                addressText: 'Tianshan Chuanggu Building, No.88 West Taxi Street, Gaocheng District, Shijiazhuang, Hebei Province, P.R.China',
+                phoneText: '+86 18633833889',
+                emailText: 'yokantrading@outlook.com',
+                contactSlogan: 'YOKAN Trading is committed to being your reliable global trade partner, providing professional and efficient supply chain solutions.',
+                navHome: 'Home',
+                navAbout: 'About',
+                navProducts: 'Products',
+                navContact: 'Contact',
+                exploreProducts: 'Explore Products',
+                globalNetwork: 'Global Network',
+                industrialQuality: 'Industrial Quality',
+                professionalService: 'Professional Service',
+                rawMaterials: 'Raw Materials & Industrial Products',
+                transportation: 'Transportation Products',
+                dailyGoods: 'Daily & Chemical Products'
+            }
+        };
+        
+        // 切换语言函数
+        function toggleLanguage() {
+            currentLanguage = currentLanguage === 'zh' ? 'en' : 'zh';
+            const langData = languageContent[currentLanguage];
+            
+            // 更新切换按钮文本
+            languageToggle.querySelector('span').textContent = langData.toggleText;
+            
+            // 更新导航栏文本
+            document.querySelector('a[href="#home"]').textContent = langData.navHome;
+            document.querySelector('a[href="#about"]').textContent = langData.navAbout;
+            document.querySelector('a[href="#products"]').textContent = langData.navProducts;
+            document.querySelector('a[href="#contact"]').textContent = langData.navContact;
+            
+            // 更新Hero区域
+            document.querySelector('.hero-title + h2').textContent = langData.heroSubtitle;
+            document.querySelector('.hero-gradient p').textContent = langData.heroDescription;
+            document.querySelector('.pulse-border').innerHTML = `${langData.exploreProducts} <i class="fas fa-arrow-down ml-2"></i>`;
+            
+            // 更新关于我们标题
+            document.querySelector('#about .section-title').textContent = langData.aboutTitle;
+            
+            // 更新核心价值标题
+            document.querySelectorAll('.industrial-card.text-center h3')[0].textContent = langData.globalNetwork;
+            document.querySelectorAll('.industrial-card.text-center h3')[1].textContent = langData.industrialQuality;
+            document.querySelectorAll('.industrial-card.text-center h3')[2].textContent = langData.professionalService;
+            
+            // 更新产品中心标题
+            document.querySelector('#products .section-title').textContent = langData.productTitle;
+            
+            // 更新产品分类标题
+            document.querySelectorAll('#products h3')[0].textContent = langData.rawMaterials;
+            document.querySelectorAll('#products h3')[1].textContent = langData.transportation;
+            document.querySelectorAll('#products h3')[2].textContent = langData.dailyGoods;
+            
+            // 更新联系我们标题
+            document.querySelector('#contact .section-title').textContent = langData.contactTitle;
+            
+            // 更新产品描述
+            languageElements.forEach(element => {
+                if (currentLanguage === 'en') {
+                    element.textContent = element.getAttribute('data-en');
+                } else {
+                    // 恢复默认中文内容（需要从原始HTML获取）
+                    // 这里简化处理，实际产品描述会保持原样，因为data-en属性已经包含英文内容
+                }
+            });
+            
+            // 更新联系信息
+            aboutText.textContent = langData.aboutText;
+            addressText.textContent = langData.addressText;
+            phoneText.textContent = langData.phoneText;
+            emailText.textContent = langData.emailText;
+            contactSlogan.textContent = langData.contactSlogan;
+            
+            // 更新联系方式中的英文地址
+            const addressEnElement = addressText.nextElementSibling;
+            if (currentLanguage === 'zh') {
+                addressEnElement.style.display = 'block';
+            } else {
+                addressEnElement.style.display = 'none';
+            }
+            
+            // 更新联系口号中的英文内容
+            const contactEnElement = contactSlogan.nextElementSibling;
+            if (currentLanguage === 'zh') {
+                contactEnElement.style.display = 'block';
+            } else {
+                contactEnElement.style.display = 'none';
+            }
+        }
+        
+        // 绑定语言切换事件
+        languageToggle.addEventListener('click', toggleLanguage);
+        
+        // 平滑滚动到锚点
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // 响应式调整
+        window.addEventListener('resize', function() {
+            // 可以根据需要添加响应式调整代码
+        });
+        
+        // 初始化页面
+        document.addEventListener('DOMContentLoaded', function() {
+            // 确保所有图片占位符正常显示
+            const placeholderImages = document.querySelectorAll('img[src^="https://via.placeholder.com"]');
+            placeholderImages.forEach(img => {
+                img.onerror = function() {
+                    // 如果占位符服务不可用，使用备用方案
+                    this.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMWExYTFhIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZmZkNzAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+SW1hZ2UrUGxhY2Vob2xkZXI8L3RleHQ+PC9zdmc+';
+                };
+            });
+        });
+    </script>
+</body>
+</html>
